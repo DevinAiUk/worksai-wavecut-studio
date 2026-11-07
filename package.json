@@ -1,0 +1,16 @@
+{
+  "name": "@worksai/worksai-wavecut-studio",
+  "version": "1.0.0",
+  "description": "Zero-backend browser waveform audio editor with automatic dead-air silence cutting and chapter show-notes generation.",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.mjs",
+  "scripts": {
+    "test": "node --test tests/product.test.mjs",
+    "lint": "node --check src/index.mjs && node --check tests/product.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevinAiUk/worksai-wavecut-studio.git"
+  }
+}
